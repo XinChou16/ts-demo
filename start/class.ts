@@ -1,4 +1,17 @@
 // Class
+class Student1 {
+  fullName: string;
+  firstName: string,
+  middleInitial: string,
+  lastName: string,
+  constructor(firstName: string, middleInitial: string, lastName: string) {
+    this.firstName = firstName;
+    this.middleInitial = middleInitial;
+    this.lastName = lastName;
+    this.fullName = firstName + " " + middleInitial + " " + lastName;
+  }
+}
+
 class Student {
   fullName: string;
   constructor(public firstName: string, public middleInitial: string, public lastName: string) {
